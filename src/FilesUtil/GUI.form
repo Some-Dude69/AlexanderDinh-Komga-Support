@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="FilesUtil.GUI">
+  <grid id="27dc6" binding="MainPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="733" height="590"/>
+    </constraints>
+    <properties>
+      <background color="-15855309"/>
+      <foreground color="-15855309"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <splitpane id="9fd63" binding="Split">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <continuousLayout value="true"/>
+          <dividerSize value="-1"/>
+          <doubleBuffered value="true"/>
+          <enabled value="false"/>
+          <foreground color="-12828863"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="e4003" class="javax.swing.JLabel" binding="Preview">
+            <constraints>
+              <splitpane position="right"/>
+            </constraints>
+            <properties>
+              <doubleBuffered value="true"/>
+              <enabled value="true"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <text value=""/>
+              <verticalAlignment value="0"/>
+            </properties>
+          </component>
+          <grid id="cb926" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="25" bottom="0" right="25"/>
+            <constraints>
+              <splitpane position="left"/>
+            </constraints>
+            <properties>
+              <background color="-15855309"/>
+              <foreground color="-12828863"/>
+            </properties>
+            <border type="none" title-justification="2" title-position="1"/>
+            <children>
+              <component id="63204" class="javax.swing.JProgressBar" binding="ProgressBar" custom-create="true">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <doubleBuffered value="true"/>
+                  <focusable value="false"/>
+                  <font/>
+                  <stringPainted value="true"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </splitpane>
+    </children>
+  </grid>
+</form>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="FilesUtil.StarterGUI">
+  <grid id="27dc6" binding="MainPanel" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="754" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="d25cd" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="232" height="69"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-12236470"/>
+          <foreground color="-4473925"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <scrollpane id="1b39b">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-12236470"/>
+              <foreground color="-12828863"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="d51ee" class="javax.swing.JEditorPane" binding="PathsList" custom-create="true">
+                <constraints/>
+                <properties>
+                  <caretColor color="-1"/>
+                  <disabledTextColor color="-16777216"/>
+                  <editable value="false"/>
+                  <enabled value="false"/>
+                  <font/>
+                  <foreground color="-12828863"/>
+                  <selectedTextColor color="-16777216"/>
+                  <selectionColor color="-8092540"/>
+                  <toolTipText value="Click to add Directories"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+          <grid id="ae8d7" layout-manager="GridLayoutManager" row-count="1" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="9c5af" class="javax.swing.JCheckBox" binding="ShowGui" custom-create="true">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font/>
+                  <text value="Show GUI"/>
+                </properties>
+              </component>
+              <component id="ce778" class="javax.swing.JCheckBox" binding="MoveSub_folders" custom-create="true">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font/>
+                  <text value="Move Sub-folders"/>
+                </properties>
+              </component>
+              <component id="3670a" class="javax.swing.JCheckBox" binding="Maximized" custom-create="true">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font/>
+                  <text value="Maximized-GUI"/>
+                </properties>
+              </component>
+              <component id="b0f5" class="javax.swing.JCheckBox" binding="replace" custom-create="true">
+                <constraints>
+                  <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font/>
+                  <text value="Replace old files"/>
+                </properties>
+              </component>
+              <component id="d5a87" class="javax.swing.JCheckBox" binding="ReportDuplicates" custom-create="true">
+                <constraints>
+                  <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font/>
+                  <text value="Report Duplicates"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <component id="cfde" class="javax.swing.JButton" binding="Submit" custom-create="true">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="22" style="0"/>
+          <text value="Submit Values"/>
+        </properties>
+      </component>
+      <grid id="35ff9" layout-manager="GridLayoutManager" row-count="1" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="6d524" class="javax.swing.JLabel" binding="PreMonthsExcluded" custom-create="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font/>
+              <labelFor value="1b39b"/>
+              <text value="Enter BlackListed Month:"/>
+            </properties>
+          </component>
+          <component id="31d19" class="javax.swing.JCheckBox" binding="Whitelist" custom-create="true">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="10"/>
+              <text value="Whitelist"/>
+            </properties>
+          </component>
+          <component id="500d5" class="javax.swing.JFormattedTextField" binding="MonthsExcluded" custom-create="true">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font/>
+              <text value="Enter a month to be excluded, then press enter(e.g: January*ENTER*)"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="e890d" class="javax.swing.JTextField" binding="BlackListedTF" custom-create="true">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <disabledTextColor color="-16777216"/>
+          <doubleBuffered value="true"/>
+          <editable value="false"/>
+          <enabled value="true"/>
+          <focusable value="true"/>
+          <font/>
+          <text value="BlackListed Months:"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
